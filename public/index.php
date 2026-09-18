@@ -10,7 +10,7 @@ $root = dirname(__DIR__);
 $head = ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'HEAD';
 
 try {
-    require $root . '/app/bootstrap.php';
+    require "$root/app/bootstrap.php";
 
     try {
         $response = Router::load("$root/routes.php")->direct(Request::uri(), Request::method());
@@ -34,6 +34,6 @@ try {
     header('X-Content-Type-Options: nosniff');
     header("Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; frame-ancestors 'none'");
     if (!$head) {
-        readfile($root . '/resources/errors/500.html');
+        readfile("$root/resources/errors/500.html");
     }
 }

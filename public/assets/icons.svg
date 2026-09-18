@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="arrow-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></g></symbol>
+<symbol id="arrow-left" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12H5m6-6-6 6 6 6"/></g></symbol>
+<symbol id="arrow-up" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V5m-6 6 6-6 6 6"/></g></symbol>
+<symbol id="arrow-down" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15m-6-6 6 6 6-6"/></g></symbol>
+<symbol id="arrow-up-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 19 14-14M7 5h12v12"/></g></symbol>
+<symbol id="arrow-down-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 5 14 14M7 19h12V7"/></g></symbol>
+<symbol id="eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.7-6 10-6 10 6 10 6-3.7 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.6"/></g></symbol>
+</defs></svg>

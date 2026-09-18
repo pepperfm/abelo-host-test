@@ -9,13 +9,13 @@ use Core\Database\Connection;
 use Core\View;
 
 $root = dirname(__DIR__);
-if (!is_file($root . '/vendor/autoload.php')) {
+if (!is_file("$root/vendor/autoload.php")) {
     throw new RuntimeException('Dependencies are missing. Run composer install.');
 }
-require_once $root . '/vendor/autoload.php';
+require_once "$root/vendor/autoload.php";
 date_default_timezone_set('UTC');
 
-$config = require $root . '/config.php';
+$config = require "$root/config.php";
 $pdo = Connection::create($config['database']);
 
 // All models use the same publication cutoff throughout this request.
