@@ -1,0 +1,8 @@
+.git
+.env
+vendor
+node_modules
+config.local.php
+storage
+*.zip
+.DS_Store

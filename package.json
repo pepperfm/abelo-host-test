@@ -1,0 +1,12 @@
+{
+  "name": "leaf-blog-styles",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass --no-source-map --style=compressed resources/scss/app.scss public/assets/app.css",
+    "watch": "sass --watch resources/scss/app.scss:public/assets/app.css"
+  },
+  "devDependencies": {
+    "sass": "1.93.2"
+  }
+}

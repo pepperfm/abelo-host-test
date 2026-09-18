@@ -1,0 +1,33 @@
+{
+    "name": "demo/leaf-blog",
+    "description": "Small MVC blog on PHP 8.5, PDO/MySQL and Smarty.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "~8.5.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mbstring": "*",
+        "smarty/smarty": "5.8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/",
+            "App\\Controllers\\": "controllers/",
+            "App\\Models\\": "models/"
+        },
+        "files": [
+            "helpers/view.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "test:unit": "@php tests/unit.php",
+        "test:integration": "@php tests/integration.php",
+        "test:http": "@php tests/http.php",
+        "lint": "@php bin/lint.php"
+    }
+}

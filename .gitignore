@@ -1,0 +1,16 @@
+.idea
+/.env
+/config.local.php
+/vendor/
+/node_modules/
+/storage/*
+!/storage/smarty/
+/storage/smarty/*
+!/storage/smarty/compile/
+!/storage/smarty/cache/
+/storage/smarty/compile/*
+/storage/smarty/cache/*
+!/storage/smarty/compile/.gitkeep
+!/storage/smarty/cache/.gitkeep
+.DS_Store
+*.log
